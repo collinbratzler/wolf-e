@@ -1,0 +1,18 @@
+<!-- 404.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    // Get the current path
+    const path = window.location.pathname;
+
+    // Redirect ALL unknown paths to a default fallback page
+    window.location.replace(`/fallback.html?path=${encodeURIComponent(path)}`);
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
