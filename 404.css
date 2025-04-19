@@ -19,8 +19,6 @@ body {
     animation: fade 1s linear forwards;
 }
 
-
-  
 @keyframes fade {
     0% {
         color: white;
@@ -41,19 +39,5 @@ body {
         opacity: 0;
         transform: translateY(200px);
     }
-}
-  
-.center-box {
-    width: 1000px;              /* or use % or vw if you want it responsive */
-    height: 600px;
-    background-color: black;   
-    border: 2px solid var(--my-color);   /* optional */
-    border-radius: 100px;       /* just to make it look nice */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* soft shadow */
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
   
