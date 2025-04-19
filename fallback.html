@@ -1,0 +1,18 @@
+<!-- fallback.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Fallback Page</title>
+</head>
+<body>
+  <h1>This is the fallback page</h1>
+  <p id="info"></p>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const originalPath = params.get("path");
+    document.getElementById("info").textContent = `You tried to visit: ${originalPath}`;
+  </script>
+</body>
+</html>
