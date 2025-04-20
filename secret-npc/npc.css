@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #a065ff;
+  }
+  
+  .class-card {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s ease;
+  }
+  
+  .class-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .class-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid #a065ff;
+  }
+  
+  .class-bio h2 {
+    margin: 0;
+    color: #a065ff;
+  }
+  
+  .class-bio p {
+    margin-top: 8px;
+  }
+  
