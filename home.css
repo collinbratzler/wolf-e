@@ -15,20 +15,17 @@ nav {
   overflow: hidden;
 }
 
-nav h1 {
+nav a {
   flex: 1;
-  text-align: center;
-  background-color: #d68549;
-}
-
-nav h1 a {
   display: block;
   padding: 14px 20px;
+  text-align: center;
+  background-color: #d68549;
   color: #9d402b;
   text-decoration: none;
 }
 
-nav h1 a:hover {
+nav a:hover {
   background-color: #00101a;
 }
 
