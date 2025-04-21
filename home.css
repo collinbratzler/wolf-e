@@ -9,6 +9,7 @@ body {
 /* Navigation bar style */
 nav {
   display: flex;
+  flex-direction: row;  
   justify-content: center;
   background-color: #00101a;
   overflow: hidden;
